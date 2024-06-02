@@ -1,0 +1,124 @@
+body {
+    padding: 10px;
+}
+
+.auction-block {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.auction-block img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.auction-details {
+    flex-grow: 1;
+}
+.auction-details h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.auction-details p {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.auction-details .price {
+    font-weight: bold;
+    color: #e67e22;
+}
+
+.small-image {
+    width: 200px;
+    height: auto;
+}
+
+.message {
+    color:red;
+}
+
+.form-group .form-control{
+    border-radius: 15px; 
+    padding: 5px;
+    width: 40%;
+    border: 2px solid #007bff;
+    display: block;
+}
+
+.messages .success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.messages .error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.file-input {
+    width: 40%;
+    display: block;
+}
+
+.auction-description {
+    max-width: 800px; 
+    margin: 10 auto;   
+    padding: 5px;    
+    border: 2px solid #007bff;
+    border-radius: 15px;
+}
+
+.auction-category {
+    max-width: 1000px; 
+    width: 500px;
+    margin: 10 auto;   
+    padding: 5px;    
+    border: 2px solid #007bff;
+    border-radius: 15px;
+}
+
+.form-control.auction-coment {
+    max-width: 800px; 
+    margin: 10 auto;   
+    padding: 5px;   
+    border: 2px solid #007bff;
+    border-radius: 15px;
+} 
+
+.auction-bid {
+    max-width: 800px; 
+    margin: 10 auto;   
+    padding: 5px;    
+    border: 2px solid #007bff;
+    border-radius: 15px;
+} 
+
+.color-text {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.congrats-message {
+    border: 2px solid #28a745; /* Green border to signify success */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #d4edda; /* Light green background color */
+    padding: 20px; /* Padding inside the div */
+    width: 50%; /* Width of the div */
+    margin: 20px auto; /* Center the div with auto margins */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    font-family: 'Arial', sans-serif; /* Font family */
+    text-align: center; /* Center align text */
+}
+
+.congrats-message p {
+    color: #155724; /* Dark green text color */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Font weight */
+    margin: 0; /* Remove margin */
+}
